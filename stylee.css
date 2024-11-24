@@ -1,0 +1,37 @@
+body {
+    background-color: rgb(33, 32, 32);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    max-width: 600px; /* Ajuste para centralizar o conteúdo */
+    padding: 20px;
+}
+
+.title-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px; /* Mais espaço entre o título e o formulário */
+}
+
+.imagem {
+    width: 100px !important;
+    margin-right: 20px !important;
+}
+
+form .form-control {
+    max-width: 100%;  /* Garante que o campo não ultrapasse a largura do contêiner */
+    width: 100%;      /* Reduz os campos para que ocupem o espaço disponível */
+    margin-bottom: 15px; /* Espaçamento entre os campos */
+}
+
+button {
+    width: 100%; /* Botão ocupa toda a largura disponível */
+    margin-top: 10px; /* Espaço entre o botão e os campos de entrada */
+}
